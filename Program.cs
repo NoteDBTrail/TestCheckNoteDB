@@ -16,7 +16,7 @@ class Program
         Console.WriteLine("  {0}   {1}  {2}  {3}", table.Rows[2]["Dosage"], table.Rows[2]["Drug"], table.Rows[2]["Diagnosis"], table.Rows[2]["Date"]);
         Console.WriteLine("  {0}   {1}  {2}  {3}", table.Rows[3]["Dosage"], table.Rows[3]["Drug"], table.Rows[3]["Diagnosis"], table.Rows[3]["Date"]);
     }
-
+//table input
     static DataTable GetTable()
     {
         
